@@ -25,6 +25,7 @@ float tint = 0; //variável float para representar o valor de temperatura intern
 float umidade = 0; //variável float para representar o valor de umidade
 float UE = 0; //variável float para representar a umidade de equilíbrio
 
+// constantes de equilibrio higroscopio para o milho 
 #define a 0.339
 #define b 0.059
 #define c 30.205
