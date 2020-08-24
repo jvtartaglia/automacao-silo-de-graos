@@ -32,6 +32,7 @@ Optei por manter os comentários e instruções no código em português a fim d
 Me coloco à disposição para possíveis traduções para outras línguas, bem como para conversar sobre o projeto.
 <hr> <br>
 
-![Imagem 01](https://projeto-silo-imagens.s3.amazonaws.com/01.jpeg)
-
-![Imagem 01](https://projeto-silo-imagens.s3.amazonaws.com/02.jpeg)
+<img src="https://projeto-silo-imagens.s3.amazonaws.com/01.jpeg" width=60% height=60%>
+<br>
+<br>
+<img src="https://projeto-silo-imagens.s3.amazonaws.com/02.jpeg" width=100% height=100%>
