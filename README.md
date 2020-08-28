@@ -1,5 +1,5 @@
 ## Grain silo automation
-Monitoring enviromental conditions (temperature, humidity, rain) for grain handling and storage operations in silos and automate some tasks as turning on/off the cooling system.
+Monitoring enviromental conditions (temperature, humidity, rain) for grain handling and storage operations in silos and automate some tasks like turning on/off the cooling system.
 
 ## Motivation
 This project has been created for educational purposes at Universidade Federal de Viçosa (UFV) - a Brazilian university - during an undergradradute course required for major in Agricultural Engineering.
@@ -12,7 +12,7 @@ This project has been created for educational purposes at Universidade Federal d
 ## Languages and translations
 As you can see most of instructions and comments were wrote in Brazilian Portuguese, and I decided to keep it to help my classmates and other students in Brazil that might by in their first steps.
 
-Although, I'm glad to help in futher translations and I'm 100% available to explain how it works and chat about the project.
+Although, I'm glad to help in further translations and I'm 100% available to chat about the project.
 <hr><br>
 
 ## Automação de silo para armazenamento de grãos
