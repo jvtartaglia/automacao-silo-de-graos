@@ -18,9 +18,7 @@ DHT dht0(DHTPIN0, DHTTYPE);
 #define Verde 3 // LED verde
 #define Chuva 4 // sensor de chuva no pino 4
 #define Buzzer 5 //buzzer no pino 5
-#define SensorInt A0   //definindo o sensor LM35 que ficará dentro do silo
 
-int LeituraInt = 0; //variável inteira para representar a leitura do sensor de temperatura interna
 int LeituraChuva = 0; //variável inteira para representar a leitura do sensor de chuva
 
 float text = 0; //variável float para representar o valor de temperatura externa
@@ -53,10 +51,6 @@ void setup()
 
 void loop() {
 
-  LeituraInt = analogRead (SensorInt); //realiza a leitura analógica dentro do silo
-
-  tint = (LeituraInt * ((float)5 / (float)1023) * 100); //converte a leitura em temperatura (°C)
-
   //leitura do DHT11 das condições externas
   umidade = dht1.readHumidity();
   text = dht1.readTemperature();
@@ -68,7 +62,7 @@ void loop() {
   //lê o sensor de chuva
   LeituraChuva = digitalRead(Chuva);
 
-  //cálculo da umidade de equilíbrio
+  // cálculo da umidade de equilíbrio
   UE = (a - (b * (log(-(text + 2 + c) * log(umidade / 100))))) * 100;
 
   // testa se retorno é valido, caso contrário aciona o buzzer
